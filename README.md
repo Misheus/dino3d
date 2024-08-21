@@ -42,6 +42,12 @@ https://trello.com/b/Pt4FSqOi/t-rex-run-3d
   - Scores display fixed
   - Moving objects stuttering fixed (never use .splice() again :3)
 
+## Development
+- Use some webserver to serve this. It wouldn't work if you just open index.html from your filesystem.
+- First time run `npm install` to install dependencies.
+- Now you can run `npx gulp reload-js` to build js once, `npx gulp reload-css` to build scss once, or `npx gulp` to do those things automatically when you save a file.
+
+
 ## Credits
 https://threejs.org/ - WebGL 3D Library  
 https://ephtracy.github.io/ - Free lightweight 8-bit voxel art editor  
